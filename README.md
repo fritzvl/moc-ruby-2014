@@ -36,3 +36,17 @@ bogdan.sergiienko@masterofcode.com
 
 * Як користуватися Github
    * https://try.github.io/levels/1/challenges/1
+ 
+Відео
+-----
+Перше заняття. Вступна та організаційна частина
+
+[![Lection 1](http://img.youtube.com/vi/3PwYHu5OQa8/0.jpg)](http://www.youtube.com/watch?v=3PwYHu5OQa8)
+
+
+Друге заняття. Тези в папці 0. Загальні принципи ООП.
+
+[![Lection 2](http://img.youtube.com/vi/VZYZ5ZDQNWU/0.jpg)](http://www.youtube.com/watch?v=VZYZ5ZDQNWU)
+
+
+
