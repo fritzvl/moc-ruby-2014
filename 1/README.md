@@ -16,9 +16,9 @@ Design patterns
   * Pure fabrication(Вигадані сутності)
 
 * Examples of less general patterns
-  * MVC pattern
-  * Adapter pattern
-  * Builder pattern
+  * Architectural(Архітектурний) - MVC 
+  * Structural(Структурний) - Adapter 
+  * Creational(Твірний) - Builder 
 
 
 Less general design patterns
