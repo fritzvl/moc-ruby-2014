@@ -1,11 +1,10 @@
 Lesson 1.Abstracts
 ------------------
 
-
 Design patterns
 ---------------
 
-* GRASP principles(patterns)
+* GRASP(General Responsibility Assignment Software Patterns) principles(patterns)
   * Controller(Контроллер)
   * Creator(Створювач)
   * High cohesion(Висока зв'язність)
@@ -15,3 +14,13 @@ Design patterns
   * Polymorphism(Поліморфізм)
   * Protected variations(Стійкість до змін)
   * Pure fabrication(Вигадані сутності)
+
+* Examples of less general patterns
+  * MVC pattern
+  * Adapter pattern
+  * Builder pattern
+
+
+Less general design patterns
+----------------------------
+Useful link: http://www.ozon.ru/context/detail/id/2457392/
