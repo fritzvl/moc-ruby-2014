@@ -50,7 +50,7 @@ bogdan.sergiienko@masterofcode.com
 
 Третє заняття.(семінар) 
 
-[![Lection 3](http://img.youtube.com/vi/tW4MhBstXdM/0.jpg)](https://www.youtube.com/watch?v=tW4MhBstXdM)
+[![Lection 3](http://img.youtube.com/vi/tW4MhBstXdM/1.jpg)](https://www.youtube.com/watch?v=tW4MhBstXdM)
 
 Четверте заняття.Дизайн паттерни
 
