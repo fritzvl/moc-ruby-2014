@@ -11,6 +11,5 @@ x= dolly.new
 puts "Class as dynamic object"
 puts "==================================================================="
 x.moo
-puts z.class
 puts dolly.class
 puts
