@@ -48,5 +48,14 @@ bogdan.sergiienko@masterofcode.com
 
 [![Lection 2](http://img.youtube.com/vi/VZYZ5ZDQNWU/0.jpg)](http://www.youtube.com/watch?v=VZYZ5ZDQNWU)
 
+Третє заняття.(семінар) 
 
+[![Lection 3](http://img.youtube.com/vi/tW4MhBstXdM/0.jpg)](https://www.youtube.com/watch?v=tW4MhBstXdM)
 
+Четверте заняття.Дизайн паттерни
+
+[![Lection 4](http://img.youtube.com/vi/n6sN0akNrEc/0.jpg)](https://www.youtube.com/watch?v=n6sN0akNrEc)
+
+П'яте завдання.(Семінар)
+
+[![Lection 5](http://img.youtube.com/vi/UNfDzH1dmmM/0.jpg)](https://www.youtube.com/watch?v=UNfDzH1dmmM)
