@@ -4,11 +4,15 @@ mary = class Cow
     puts "Moo as a cow"
   end
 
+  def self.moo
+    puts "Moo as class"
+  end
+
   self
 end
 
 z= mary.new
-
+mary.moo
 
 # Class eigenclass access
 class << mary
@@ -24,3 +28,8 @@ puts "==================================================================="
 z.moo
 mary.moo
 puts
+puts "Z class is #{z.class}"
+
+y= mary.new
+puts "Y moo is:"
+y.moo
