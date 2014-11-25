@@ -12,12 +12,16 @@ Ruby programming language
   * Maglev
   * Opal
 
+* Key features
+  * Object-oriented
+  * Dynamic and duck typing
+  * Everything is an expression
+  * Creation of DSLs
+  * Reflection and alteration
+  * Lexical closures, iterators and generators, with a unique block syntax
+  * Exception handling
+  * GC
 
 * Examples
-  * 2.rb(https://github.com/fritzvl/moc-ruby-2014/blob/master/2/02.rb)
+  * https://github.com/fritzvl/moc-ruby-2014/tree/master/2/examples
 
-
-
-Less general design patterns
-----------------------------
-Useful link: http://www.ozon.ru/context/detail/id/2457392/
