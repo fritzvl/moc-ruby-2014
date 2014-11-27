@@ -1,3 +1,4 @@
+@test_array = [1, 2, 3, 4, 5, "b", "c", "d"]
 puts "Get array info"
 puts @test_array.join ","
 puts "==================================================================="
