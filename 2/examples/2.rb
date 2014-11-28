@@ -1,3 +1,6 @@
+#Ruby and RubyOnRails course examples by masterofcode.com
+#Copyright (C) 2014  Masterofcode LLC
+
 class Foo
 
   attr_accessor :bar

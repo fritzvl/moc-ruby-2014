@@ -1,3 +1,6 @@
+#Ruby and RubyOnRails course examples by masterofcode.com
+#Copyright (C) 2014  Masterofcode LLC
+
 # Hash KEY requirements example
 class Book
   attr_reader :author, :title
@@ -20,7 +23,10 @@ class Book
   def hash
     @author.hash ^ @title.hash # XOR
   end
+
 end
+
+
 
 book1 = Book.new 'matz', 'Ruby in a Nutshell'
 book2 = Book.new 'matz', 'Ruby in a Nutshell'

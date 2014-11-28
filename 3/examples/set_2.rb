@@ -1,3 +1,6 @@
+#Ruby and RubyOnRails course examples by masterofcode.com
+#Copyright (C) 2014  Masterofcode LLC
+
 require 'set'
 
 a = Set.new({ a: 1, b: 2})

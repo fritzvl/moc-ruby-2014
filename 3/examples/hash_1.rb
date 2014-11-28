@@ -1,5 +1,5 @@
 #Ruby and RubyOnRails course examples by masterofcode.com
-#Copyright (C) 2013  Masterofcode LLC
+#Copyright (C) 2014  Masterofcode LLC
 
 
 puts "Define by old syntax"
