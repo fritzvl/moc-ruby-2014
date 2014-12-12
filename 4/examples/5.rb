@@ -12,11 +12,11 @@ if response.key?("person")
 
   person_object = Struct.new("Person", *response["person"].keys.collect(&:to_sym))
 
-  person=person_object.new(*response["person"])
+  person=person_object.new(*response["person"].values)
 
   p person.inspect
 
-  person2 = Struct::Person.new(*response["person"])
+  person2 = Struct::Person.new(*response["person"].values)
 
   p person2.inspect
 

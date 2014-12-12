@@ -9,4 +9,4 @@ Ruby objects and classes
 * Dynamic objects via Struct
 
 * Examples
-  * https://github.com/fritzvl/moc-ruby-2014/tree/master/3/examples
+  * https://github.com/fritzvl/moc-ruby-2014/tree/master/4/examples

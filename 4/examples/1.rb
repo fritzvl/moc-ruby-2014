@@ -8,7 +8,12 @@ module MagicWords
       magic_words.each do |magic_word|
 
         define_method magic_word do
+
+
           "Real magic word #{magic_word}"
+
+
+
         end
       end
     end
@@ -26,6 +31,7 @@ class LonelyClass
   include MagicWords
 
   magic_methods :test, :rest, :fest
+
 
 
 end
