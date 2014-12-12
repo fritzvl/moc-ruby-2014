@@ -56,6 +56,23 @@ bogdan.sergiienko@masterofcode.com
 
 [![Lection 4](http://img.youtube.com/vi/n6sN0akNrEc/0.jpg)](https://www.youtube.com/watch?v=n6sN0akNrEc)
 
-П'яте завдання.(Семінар)
+П'яте заняття.(Семінар)
 
 [![Lection 5](http://img.youtube.com/vi/UNfDzH1dmmM/0.jpg)](https://www.youtube.com/watch?v=UNfDzH1dmmM)
+
+Шосте заняття.Основи Ruby
+
+[![Lection 6](http://img.youtube.com/vi/UNgdGdBUq5c/0.jpg)](https://www.youtube.com/watch?v=UNgdGdBUq5c)
+
+Восьме заняття.Коллекції Ruby
+
+[![Lection 8](http://img.youtube.com/vi/E_USQr5xzPo/0.jpg)](https://www.youtube.com/watch?v=E_USQr5xzPo)
+
+Дев'яте заняття(семінар)
+
+[![Lection 9](http://img.youtube.com/vi/Ogahz12lj2k/0.jpg)](https://www.youtube.com/watch?v=Ogahz12lj2k)
+
+Десяте заняття.Модулі та базове метапрограмування
+
+[![Lection 10](http://img.youtube.com/vi/IVT63APc91A/0.jpg)](https://www.youtube.com/watch?v=IVT63APc91A)
+
