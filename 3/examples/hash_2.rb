@@ -18,7 +18,7 @@ class Book
 
 #Mandatory method to be hash key
   alias eql? ==
-
+  alias lalala ==
 #Mandatory method to be hash key
   def hash
     @author.hash ^ @title.hash # XOR
