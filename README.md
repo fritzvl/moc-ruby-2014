@@ -76,3 +76,7 @@ bogdan.sergiienko@masterofcode.com
 
 [![Lection 10](http://img.youtube.com/vi/IVT63APc91A/0.jpg)](https://www.youtube.com/watch?v=IVT63APc91A)
 
+Одинадцяте заняття.(семінар)
+
+[![Lection 11](http://img.youtube.com/vi/D45fACVzpRs/0.jpg)](https://www.youtube.com/watch?v=D45fACVzpRs)
+
