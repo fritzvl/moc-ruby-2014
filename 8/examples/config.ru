@@ -6,4 +6,4 @@
 require File.expand_path("../config/boot.rb", __FILE__)
 
 use MyMiddleware
-run Rack::URLMap.new  "/hi"=>CustomRackApp.new, "/sinatra"=>Sinatra::Application
+run Rack::URLMap.new  "/"=>RootRackApp.new,"/hi"=>CustomRackApp.new, "/sinatra"=>Sinatra::Application

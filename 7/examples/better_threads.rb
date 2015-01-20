@@ -7,14 +7,15 @@ results = Queue.new
 
 Thread.start do
   while msg = results.pop
-    (msg[0] << "Your request was #{msg[1]}\n\r.Result is #{msg[2]}\n\r").flush
+    (msg[0] << "Your request was #{msg[1]}.Result is #{msg[2]}\n\r").flush
+
   end
 end
 
 Thread.start do
   while msg = requests.pop
     puts "Processing ..."
-    results << [msg[0],msg[1],msg[1].upcase]
+    results << [msg[0], msg[1], msg[1].upcase]
   end
 end
 

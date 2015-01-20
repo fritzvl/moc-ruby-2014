@@ -1,4 +1,4 @@
-Lesson 6. Threads and Fibers
+Lesson 7. Threads and Fibers
 
 Multi-threading in Ruby
 ---------------
