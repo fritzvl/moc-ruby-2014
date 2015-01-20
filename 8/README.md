@@ -7,7 +7,7 @@ Rack web server Ruby middleware
 * config.ru
 * Middleware application
 * Rack application
-* Siantra - minimalistic framework
+* Sinatra - minimalistic framework
 
 * Examples
   * https://github.com/fritzvl/moc-ruby-2014/tree/master/8/examples
