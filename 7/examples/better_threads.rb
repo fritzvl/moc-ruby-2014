@@ -14,7 +14,7 @@ end
 
 Thread.start do
   while msg = requests.pop
-    puts "Processing ..."
+    puts "Processing ....Requests:#{requests.size} Results:#{results.size}"
     results << [msg[0], msg[1], msg[1].upcase]
   end
 end
