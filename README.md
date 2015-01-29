@@ -100,6 +100,15 @@ bogdan.sergiienko@masterofcode.com
 
 [![Lection 16](http://img.youtube.com/vi/9A8eWbfwelU/0.jpg)](https://www.youtube.com/watch?v=9A8eWbfwelU)
 
+Сімнадцяте заняття.Rack and Ruby web stack
+
+[![Lection 17](http://img.youtube.com/vi/4bA_DnQ87iE/0.jpg)](https://www.youtube.com/watch?v=4bA_DnQ87iE)
+
+Вісімнадцяте заняття.(семінар)
+
+[![Lection 18](http://img.youtube.com/vi/EPu-Yhb9cQ0/0.jpg)](https://www.youtube.com/watch?v=EPu-Yhb9cQ0)
+
+
 
 
 
