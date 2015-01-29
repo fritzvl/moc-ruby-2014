@@ -80,3 +80,28 @@ bogdan.sergiienko@masterofcode.com
 
 [![Lection 11](http://img.youtube.com/vi/D45fACVzpRs/0.jpg)](https://www.youtube.com/watch?v=D45fACVzpRs)
 
+Дванадцяте заняття.Procs and Lamdas
+
+[![Lection 12](http://img.youtube.com/vi/437JOTgY1zA/0.jpg)](https://www.youtube.com/watch?v=437JOTgY1zA)
+
+Тринадцяте заняття.(семінар)
+
+[![Lection 13](http://img.youtube.com/vi/PpJrT1Puh4g/0.jpg)](https://www.youtube.com/watch?v=PpJrT1Puh4g)
+
+Чотирнадцяте заняття.(семінар)
+
+[![Lection 14](http://img.youtube.com/vi/LusPXE6jL74/0.jpg)](https://www.youtube.com/watch?v=LusPXE6jL74)
+
+П'ятнадцяте заняття.Exceptions
+
+[![Lection 15](http://img.youtube.com/vi/6Q_1Xu_tPQE/0.jpg)](https://www.youtube.com/watch?v=6Q_1Xu_tPQE)
+
+Шістнадцяте заняття.Threads and Fibers
+
+[![Lection 16](http://img.youtube.com/vi/9A8eWbfwelU/0.jpg)](https://www.youtube.com/watch?v=9A8eWbfwelU)
+
+
+
+
+
+
