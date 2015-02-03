@@ -1,2 +1,30 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
+require 'rubygems'
+require 'fabrication'
+require 'faker'
+
 require 'active_record_migrations'
 ActiveRecordMigrations.load_tasks
+
+begin
+  require 'rspec/core/rake_task'
+  RSpec::Core::RakeTask.new(:spec)
+rescue LoadError
+end
+
+
+namespace :data do
+
+  require "./models.rb"
+
+  desc "Create some testing data"
+  task :fake_database do
+    10.times do
+      Fabricate(:service)
+    end
+  end
+
+
+end

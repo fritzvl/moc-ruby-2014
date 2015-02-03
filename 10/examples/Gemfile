@@ -1,6 +1,24 @@
 source "https://rubygems.org"
 
+
+gem 'sinatra', git: 'git@github.com:sinatra/sinatra.git'
 gem "activerecord"
 gem "sqlite3"
 gem "mysql2"
-gem 'active_record_migrations'
+gem "active_record_migrations"
+
+#gem "puma"
+
+group :test do
+  gem "rspec"
+  gem "fabrication"
+  gem "database_cleaner"
+end
+
+group :development do
+  gem "better_errors"
+  gem "sinatra-reloader"
+  gem "faker"
+ # gem "shotgun"
+end
+

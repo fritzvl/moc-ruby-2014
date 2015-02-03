@@ -2,13 +2,33 @@ require 'bundler/setup'
 Bundler.require(:default)
 
 require 'rubygems'
+require 'sinatra'
 
 
-@config = YAML.load_file(File.expand_path("./db/config.yml"))[ENV['RAILS_ENV']]
-ActiveRecord::Base.establish_connection @config
+#set :environment, :production
+enable :sessions
+enable :logging
 
-class Service<ActiveRecord::Base
+
+case settings.environment
+  when development?
+    require 'sinatra/reloader'
+    require 'better_errors'
+    use BetterErrors::Middleware
+    BetterErrors.application_root = __dir__
 end
 
-s = Service.new({label: "Google",last_visited_at: Time.now})
-s.save
+set :sessions, key: 'N&wedhSDF',
+    domain: "localhost",
+    path: '/',
+    expire_after: 14400,
+    secret: '*&(^B234'
+
+require "./models"
+
+
+get "/services/:id" do |id|
+
+  subject = Service.find(id.to_i)
+  erb :show, locals: {subject: subject}
+end

@@ -1,0 +1,17 @@
+<h1><%= subject.label %> statistics</h1>
+<dl>
+  <dt>Label</dt>
+  <dd><%= subject.label %></dd>
+  <dt>Visits total</dt>
+  <dd><%= subject.counter %></dd>
+  <dt>Last visited at</dt>
+  <dd><%= subject.last_visited_at %></dd>
+  <dt>Visits details</dt>
+  <dl>
+    <ul>
+      <% subject.visits.each do |visit| %>
+          <li><%= visit.data %></li>
+      <% end %>
+    </ul>
+  </dl>
+</dl>

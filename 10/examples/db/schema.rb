@@ -11,12 +11,23 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150129134432) do
+ActiveRecord::Schema.define(version: 20150203161012) do
 
   create_table "services", force: :cascade do |t|
-    t.string  "label",           limit: 255
-    t.date    "last_visited_at"
-    t.integer "counter",         limit: 4,   default: 0
+    t.string   "label"
+    t.date     "last_visited_at"
+    t.integer  "counter",         default: 0
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "services", ["counter"], name: "index_services_on_counter"
+
+  create_table "visits", force: :cascade do |t|
+    t.integer  "service_id"
+    t.string   "data"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
 end
