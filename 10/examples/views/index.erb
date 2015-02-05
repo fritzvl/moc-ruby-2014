@@ -1,0 +1,24 @@
+<h1>Services list page <%= page %> </h1>
+<div class="row">
+  <%= link_to "New", "/services/new", class: "btn btn-primary col-md-2 col-md-offset-9" %>
+</div>
+<br/>
+<table class="table table-bordered table-striped">
+  <thead>
+  <tr>
+    <th>Label</th>
+    <th>Last visited at</th>
+    <th>Counter</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% subjects.each do |subject| %>
+      <tr>
+        <td><%= link_to(subject.label, "/services/#{subject.id}") %></td>
+        <td><%= subject.last_visited_at %></td>
+        <td><%= link_to(subject.counter, "/services/#{subject.id}/visits") %></td>
+      </tr>
+  <% end %>
+  </tbody>
+</table>
+<%= paginate subjects %>

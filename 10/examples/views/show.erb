@@ -3,15 +3,13 @@
   <dt>Label</dt>
   <dd><%= subject.label %></dd>
   <dt>Visits total</dt>
-  <dd><%= subject.counter %></dd>
+  <dd><%= link_to(subject.counter, "/services/#{subject.id}/visits") %></dd>
   <dt>Last visited at</dt>
   <dd><%= subject.last_visited_at %></dd>
-  <dt>Visits details</dt>
-  <dl>
-    <ul>
-      <% subject.visits.each do |visit| %>
-          <li><%= visit.data %></li>
-      <% end %>
-    </ul>
-  </dl>
 </dl>
+<div class="row">
+  <div class="col-md-2 col-md-offset-8">
+    <%= link_to "Services", "/services", class: "btn btn-success" %>
+    <%= link_to "Edit", "/services/#{subject.id}/edit", class: "btn btn-primary" %>
+  </div>
+</div>

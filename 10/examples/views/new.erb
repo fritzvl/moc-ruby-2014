@@ -1,0 +1,6 @@
+<h1> Create new service </h1>
+<% form_for subject, "/services", :id => 'register' do |f| %>
+    <%= partial "form.erb", locals: {subject: subject, f: f} %>
+<% end %>
+
+

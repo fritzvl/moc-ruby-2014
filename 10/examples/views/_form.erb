@@ -1,0 +1,12 @@
+<div class="form-group form-group-lg">
+  <%= f.error_messages %>
+  <%= f.text_field_block :label, class: "form-control" %>
+  <%= f.text_field_block :counter, class: "form-control" %>
+  <%= f.text_field_block :last_visited_at, class: "form-control" %>
+</div>
+<div class="row">
+  <div class="col-md-2 col-md-offset-8">
+    <%= f.submit "Save", class: "btn btn-primary" %>
+    <%= link_to "Back", "/services", class: "btn btn-success" %>
+  </div>
+</div>

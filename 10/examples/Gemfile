@@ -6,6 +6,8 @@ gem "activerecord"
 gem "sqlite3"
 gem "mysql2"
 gem "active_record_migrations"
+gem 'kaminari', require: %w( kaminari kaminari/hooks kaminari/sinatra)
+gem "padrino-helpers"
 
 #gem "puma"
 
@@ -17,7 +19,7 @@ end
 
 group :development do
   gem "better_errors"
-  gem "sinatra-reloader"
+  gem 'sinatra-contrib'
   gem "faker"
  # gem "shotgun"
 end

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150203161012) do
+ActiveRecord::Schema.define(version: 20150205151009) do
 
   create_table "services", force: :cascade do |t|
     t.string   "label"
@@ -19,6 +19,7 @@ ActiveRecord::Schema.define(version: 20150203161012) do
     t.integer  "counter",         default: 0
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "visits_count"
   end
 
   add_index "services", ["counter"], name: "index_services_on_counter"

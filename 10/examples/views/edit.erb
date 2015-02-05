@@ -1,0 +1,4 @@
+<h1> Edit service </h1>
+<% form_for subject, "/services/#{subject.id}", method: :put do |f| %>
+    <%= partial "form.erb", locals: {subject: subject, f: f} %>
+<% end %>
