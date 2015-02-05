@@ -70,7 +70,7 @@ end
 put "/services/:id" do |id|
 
   subject = Service.find(id)
-
+  subject.update_attributes(params[:service])
   if subject.save
     redirect to("/services/#{subject.id}")
   else
@@ -78,6 +78,12 @@ put "/services/:id" do |id|
   end
 
 
+end
+
+delete "/services/:id" do |id|
+  subject = Service.find(id)
+  subject.destroy
+  redirect to("/services")
 end
 
 
