@@ -1,0 +1,2 @@
+module AdminEntitiesHelper
+end

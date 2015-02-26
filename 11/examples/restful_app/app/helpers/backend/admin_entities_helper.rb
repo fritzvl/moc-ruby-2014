@@ -1,0 +1,2 @@
+module Backend::AdminEntitiesHelper
+end

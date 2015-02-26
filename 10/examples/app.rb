@@ -46,6 +46,7 @@ get "/services" do
   erb :index, locals: {subjects: subjects, page: page}, layout: "layout"
 end
 
+
 get "/services/new" do
   subject = Service.new
   erb :new, locals: {subject: subject}, layout: "layout"
