@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
 
 
-  root 'welcome#index'
+  root 'welcome#index' , name: "Bogdan"
 
   get '/about' => 'welcome#about'
+  get '/about/:department/department' => 'welcome#about_department'
 
   match '/contact', to: 'welcome#contact', via: [:get]
   match '/contact', to: 'welcome#send_contact', via: [:post], as: 'send_contact'
