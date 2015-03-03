@@ -21,6 +21,8 @@ RubyOnRails web application framework
 * Rails controllers parameters
 * Rails controllers
 * Controllers filters
+* Rescue in controllers
+
 * Testing routing and controllers
 
 

@@ -2,6 +2,8 @@ class WelcomeController < ApplicationController
 
   before_action :set_department, only: [:about]
   before_action :check_message, only: [:send_contact]
+  before_action :ensure_correct_department, only: [:about_department]
+  rescue_from ActionController::RoutingError, with: :department_not_found
 
   def index
     respond_to do |format|
@@ -34,10 +36,15 @@ class WelcomeController < ApplicationController
   end
 
 
+
   private
 
   def set_department
     @department = "General"
+  end
+
+  def department_not_found
+     render "department_not_found"
   end
 
 
@@ -47,6 +54,12 @@ class WelcomeController < ApplicationController
       redirect_to contact_path
     end
   end
+
+  def ensure_correct_department
+    raise ActionController::RoutingError.new("Department not found") unless ["Management", "Marketing", "Bookkeeping"].include?(params[:department].capitalize)
+  end
+
+
 
   def contact_params
     params.permit(:name, :message)
