@@ -19,6 +19,10 @@ RubyOnRails web application framework
 * Rails routing
 * Rails naming conventions
 * Rails controllers parameters
+* Rails controllers
+* Controllers filters
+* Testing routing and controllers
+
 
 * Useful links
     http://edgeguides.rubyonrails.org/routing.html
@@ -27,3 +31,11 @@ RubyOnRails web application framework
 * Examples
   * https://github.com/fritzvl/moc-ruby-2014/tree/master/11/examples
 
+
+
+* Machine-like URL
+  /weather_services/1/20150301/temperature/:lat/:long
+  /weather_services/1/20150301/humidity/:lat/:long
+* Human-like URL
+  /weather/:lat/:long
+  /weather/:lat/:long/services

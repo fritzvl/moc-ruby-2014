@@ -1,0 +1,11 @@
+<h1>Contact form</h1>
+<% if flash[:error] %>
+    <%= flash[:error] %>
+<% end %>
+<%= form_tag contact_path, method: :post do %>
+    <%= label_tag(:name, "Name") %>
+    <%= text_field_tag :name %>
+    <%= label_tag(:message, "Message") %>
+    <%= text_field_tag :message %>
+    <%= submit_tag "Send" %>
+<% end %>

@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
-
-  root 'welcome#index' , name: "Bogdan"
+  root to: 'welcome#index'
 
   get '/about' => 'welcome#about'
   get '/about/:department/department' => 'welcome#about_department'
@@ -9,16 +8,32 @@ Rails.application.routes.draw do
   match '/contact', to: 'welcome#contact', via: [:get]
   match '/contact', to: 'welcome#send_contact', via: [:post], as: 'send_contact'
 
-  resources :entities
-
-  scope 'backend' do
-
-    scope 'admin' do
-      resources :entities, as: 'admin_entities', :controller => 'admin_entities'
+  resources :entities do
+    collection do
+      get :weekly
     end
-
-    resources :entities, as: 'admin_entities', :controller => 'backend/admin_entities'
   end
+
+  # scope 'backend' , as: 'backend' do
+  #   scope 'admin' , as: 'admin' do
+  #     resources :entities, as: 'admin_entities', :controller => 'admin_entities'
+  #   end
+  #
+  #   scope 'simple' , as: 'simple' do
+  #     resources :entities, as: 'admin_entities', :controller => 'backend/admin_entities'
+  #   end
+  # end
+  #
+  # namespace 'moderator' do
+  #   namespace 'admin' do
+  #     resources :entities, as: 'admin_entities', :controller => 'admin_entities'
+  #   end
+  #
+  #   namespace 'simple' do
+  #     resources :entities, as: 'admin_entities', :controller => 'backend/admin_entities'
+  #   end
+  #
+  # end
 
 
   # The priority is based upon order of creation: first created -> highest priority.

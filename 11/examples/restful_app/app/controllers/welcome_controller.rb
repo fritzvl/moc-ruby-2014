@@ -1,16 +1,25 @@
 class WelcomeController < ApplicationController
 
+  before_action :set_department, only: [:about]
+  before_action :check_message, only: [:send_contact]
 
   def index
-    render text: "Welcome #{params[:name]}"
+    respond_to do |format|
+      format.html { render "index" }
+    end
   end
 
   def about
-    render text: "General 'About us' info"
+    respond_to do |format|
+      format.html { render "about" }
+    end
   end
 
   def about_department
-    render text: "All about #{params[:department]} department"
+    @department=params[:department]
+    respond_to do |format|
+      format.html { render "about" }
+    end
   end
 
   def contact
@@ -18,9 +27,29 @@ class WelcomeController < ApplicationController
   end
 
   def send_contact
-
+    @result = contact_params
+    respond_to do |format|
+      format.html { render "send_success" }
+    end
   end
 
 
+  private
+
+  def set_department
+    @department = "General"
+  end
+
+
+  def check_message
+    if params[:name].blank? || params[:message].blank?
+      flash[:error] = "Both fields Name and Message must not be blank!"
+      redirect_to contact_path
+    end
+  end
+
+  def contact_params
+    params.permit(:name, :message)
+  end
 
 end
