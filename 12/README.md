@@ -12,7 +12,7 @@ Common questions about web applications performance
     https://docs.google.com/presentation/d/1YSqodtvlXxxa3tUXgJtsefqNfXViGi89M7NwwBtbtY8/edit?usp=sharing
 
 * Examples
-    https://github.com/fritzvl/moc-ruby-2014
+    https://github.com/fritzvl/responsiveness_example
 
 
 
