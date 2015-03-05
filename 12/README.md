@@ -8,7 +8,6 @@ Common questions about web applications performance
 * What we gonna do
 
 
-
 * Useful links
     https://docs.google.com/presentation/d/1YSqodtvlXxxa3tUXgJtsefqNfXViGi89M7NwwBtbtY8/edit?usp=sharing
 
