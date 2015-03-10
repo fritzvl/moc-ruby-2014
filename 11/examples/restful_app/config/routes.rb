@@ -14,6 +14,9 @@ Rails.application.routes.draw do
     end
   end
 
+  require 'sidekiq/web'
+  mount Sidekiq::Web => '/sidekiq'
+
   # scope 'backend' , as: 'backend' do
   #   scope 'admin' , as: 'admin' do
   #     resources :entities, as: 'admin_entities', :controller => 'admin_entities'

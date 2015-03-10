@@ -47,3 +47,6 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.0'
 end
 
+#Mail send queue related gems
+gem "sidekiq"
+gem 'sinatra', :require => nil

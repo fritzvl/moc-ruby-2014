@@ -30,11 +30,11 @@ class WelcomeController < ApplicationController
 
   def send_contact
     @result = contact_params
+    ContactMailer.contact_email(@result).deliver_later
     respond_to do |format|
       format.html { render "send_success" }
     end
   end
-
 
 
   private
@@ -44,7 +44,7 @@ class WelcomeController < ApplicationController
   end
 
   def department_not_found
-     render "department_not_found"
+    render "department_not_found"
   end
 
 
@@ -58,7 +58,6 @@ class WelcomeController < ApplicationController
   def ensure_correct_department
     raise ActionController::RoutingError.new("Department not found") unless ["Management", "Marketing", "Bookkeeping"].include?(params[:department].capitalize)
   end
-
 
 
   def contact_params
