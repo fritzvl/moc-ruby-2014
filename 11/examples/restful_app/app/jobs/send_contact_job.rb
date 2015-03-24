@@ -5,3 +5,6 @@ class SendContactJob < ActiveJob::Base
     # Do something later
   end
 end
+
+
+

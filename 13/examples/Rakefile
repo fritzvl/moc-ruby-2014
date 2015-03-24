@@ -1,0 +1,15 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
+require 'rubygems'
+require 'faker'
+
+require 'active_record_migrations'
+ActiveRecordMigrations.load_tasks
+
+begin
+  require 'rspec/core/rake_task'
+  RSpec::Core::RakeTask.new(:spec)
+rescue LoadError
+end
+

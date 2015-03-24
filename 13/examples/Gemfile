@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+gem "elasticsearch", "~> 1.0.8"
+gem "uuid", "~> 2.3.7"
+gem "virtus"
+gem "elasticsearch-persistence"
+gem "faker"
+gem "activesupport", "~> 4.0.0"
+gem "activerecord", "~> 4.0.0"
+gem "active_record_migrations"
+gem "sqlite3"
+

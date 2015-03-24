@@ -1,0 +1,16 @@
+development:
+  adapter: sqlite3
+  pool: 5
+  timeout: 5000
+  database: "/home/bogdan/Documents/moc-ruby-2014/10/examples/db/example_dev.sqlite3"
+  encoding: utf8
+
+production:
+  adapter: mysql2
+  database: example_prod
+  host: localhost
+  username: root
+  password: "123456"
+  encoding: utf8
+  reconnect: true
+
