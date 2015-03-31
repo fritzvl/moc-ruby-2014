@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h2>Listing Articles</h2>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th colspan="3">Actions</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @articles.each do |article| %>
+      <tr>
+        <td><%=article.title%></td>
+        <td><%=article.description%></td>
+        <td><%= link_to 'Show', article %></td>
+        <td><%= link_to 'Edit', edit_article_path(article) %></td>
+        <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Article', new_article_path, class: "btn btn-default btn-lg" %>
+<%= link_to 'New Article(SimpleForm)', new_simple_articles_path, class: "btn btn-primary btn-lg" %>
