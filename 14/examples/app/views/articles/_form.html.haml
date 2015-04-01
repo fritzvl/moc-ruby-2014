@@ -1,0 +1,11 @@
+= simple_form_for @article do |f|
+  = f.input :title
+  = f.input :description
+  = f.input :body
+  %h3 Writers
+  #writers
+    = f.simple_fields_for :writers do |writer|
+      = render 'writer_fields', :f => writer
+    .links
+      = link_to_add_association 'add writer', f, :writers
+  = f.button :submit

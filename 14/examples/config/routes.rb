@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
 
   resources :articles do
-    collection do
-      get "new_simple"
+    member do
+      get "article_writers"
     end
   end
   root "articles#index"

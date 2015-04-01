@@ -1,5 +1,5 @@
 class ArticlesController < ApplicationController
-  before_action :set_article, only: [:show, :edit, :update, :destroy]
+  before_action :set_article, only: [:show, :edit, :update, :destroy, :article_writers]
 
   # GET /articles
   # GET /articles.json
@@ -66,6 +66,11 @@ class ArticlesController < ApplicationController
     end
   end
 
+  def article_writers
+
+  end
+
+
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_article
@@ -74,6 +79,6 @@ class ArticlesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def article_params
-      params.require(:article).permit([:title, :description, :body])
+      params.require(:article).permit([:title, :description, :body, writers_attributes:[:first_name, :last_name, :email, :_destroy, :id]])
     end
 end

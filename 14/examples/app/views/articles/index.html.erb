@@ -7,6 +7,7 @@
     <tr>
       <th>Title</th>
       <th>Description</th>
+      <th>Writers</th>
       <th colspan="3">Actions</th>
     </tr>
   </thead>
@@ -16,6 +17,7 @@
       <tr>
         <td><%=article.title%></td>
         <td><%=article.description%></td>
+        <td id="writers-for<%=article.id%>"><%=link_to "Show", article_writers_article_path(article), remote: true%></td>
         <td><%= link_to 'Show', article %></td>
         <td><%= link_to 'Edit', edit_article_path(article) %></td>
         <td><%= link_to 'Destroy', article, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -26,5 +28,5 @@
 
 <br>
 
-<%= link_to 'New Article', new_article_path, class: "btn btn-default btn-lg" %>
-<%= link_to 'New Article(SimpleForm)', new_simple_articles_path, class: "btn btn-primary btn-lg" %>
+<%= link_to 'New Article', new_article_path, class: "btn btn-primary btn-lg" %>
+

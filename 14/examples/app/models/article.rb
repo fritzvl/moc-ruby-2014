@@ -1,5 +1,6 @@
 class Article < ActiveRecord::Base
 
-  belongs_to :writer
+  has_many :writers
+  accepts_nested_attributes_for :writers, :reject_if => :all_blank, :allow_destroy => true
 
 end
