@@ -102,12 +102,56 @@ bogdan.sergiienko@masterofcode.com
 
 Сімнадцяте заняття.Rack and Ruby web stack
 
-[![Lection 17](http://img.youtube.com/vi/4bA_DnQ87iE/0.jpg)](https://www.youtube.com/watch?v=4bA_DnQ87iE)
+[![Lection 17](http://img.youtube.com/vi/ylcUGDEP2qo/0.jpg)](https://www.youtube.com/watch?v=ylcUGDEP2qo)
 
 Вісімнадцяте заняття.(семінар)
 
 [![Lection 18](http://img.youtube.com/vi/EPu-Yhb9cQ0/0.jpg)](https://www.youtube.com/watch?v=EPu-Yhb9cQ0)
 
+Дев'ятнадцяте заняття (Database layer)
+
+[![Lection 19](http://img.youtube.com/vi/7lNArC2r3rs/0.jpg)](https://www.youtube.com/watch?v=7lNArC2r3rs)
+
+Двадцяте заняття (семінар)
+
+[![Lection 20](http://img.youtube.com/vi/BvwbuQ-i7x8/0.jpg)](https://www.youtube.com/watch?v=BvwbuQ-i7x8)
+
+Двадцять перше заняття(семінар)
+
+[![Lection 21](http://img.youtube.com/vi/sF7cqug2-Q8/0.jpg)](https://www.youtube.com/watch?v=sF7cqug2-Q8)
+
+Двадцять друге заняття(Rails overview, REST, Controllers)
+
+[![Lection 22](http://img.youtube.com/vi/35gcVrAc0_g/0.jpg)](https://www.youtube.com/watch?v=35gcVrAc0_g)
+[![Lection 22](http://img.youtube.com/vi/6HPaPb-n5WY/0.jpg)](https://www.youtube.com/watch?v=6HPaPb-n5WY)
+
+Двадцять третє заняття(Controllers)
+
+[![Lection 23](http://img.youtube.com/vi/eO29kyjLDJM/0.jpg)](https://www.youtube.com/watch?v=eO29kyjLDJM)
+
+Двадцять четверте заняття(Why Apps are slow?)
+
+[![Lection 24](http://img.youtube.com/vi/YeZti3I0izg/0.jpg)](https://www.youtube.com/watch?v=YeZti3I0izg)
+
+Двадцять п'яте заняття(семінар)
+
+[![Lection 25](http://img.youtube.com/vi/SAznSY-XJZw/0.jpg)](https://www.youtube.com/watch?v=SAznSY-XJZw)
+
+Двадцять шосте заняття(Search engines)
+
+[![Lection 26](http://img.youtube.com/vi/lLCre38_BJ4/0.jpg)](https://www.youtube.com/watch?v=lLCre38_BJ4)
+
+Двадцять сьому заняття (семінар)
+
+[![Lection 27](http://img.youtube.com/vi/AO99Ljf2Sdg/0.jpg)](https://www.youtube.com/watch?v=AO99Ljf2Sdg)
+
+Двадцять восьме заняття (Rails View layer)
+
+[![Lection 28](http://img.youtube.com/vi/kAN22xSkHpw/0.jpg)](https://www.youtube.com/watch?v=kAN22xSkHpw)
+
+Двадцять дев'яте завдання (Rails View layer. Part 2)
+
+[![Lection 29] TBD
 
 
 
