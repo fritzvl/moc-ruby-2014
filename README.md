@@ -151,7 +151,7 @@ bogdan.sergiienko@masterofcode.com
 
 Двадцять дев'яте завдання (Rails View layer. Part 2)
 
-[![Lection 29] TBD
+[![Lection 29]] TBD
 
 
 
